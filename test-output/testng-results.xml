@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="122571" started-at="2020-12-28T14:11:51Z" finished-at="2020-12-28T14:13:53Z">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.validUsernameAndPass()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="validUsernameAndPass" class="com.mesf.test.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="122571" started-at="2020-12-28T14:11:51Z" finished-at="2020-12-28T14:13:53Z">
+      <class name="com.mesf.test.CreateTournamentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="setUp" is-config="true" duration-ms="10401" started-at="2020-12-28T14:12:46Z" finished-at="2020-12-28T14:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="toCreatebracket()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="toCreatebracket" duration-ms="4754" started-at="2020-12-28T14:12:56Z" description="here i want to create bracket" finished-at="2020-12-28T14:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreatebracket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="1211" started-at="2020-12-28T14:13:01Z" finished-at="2020-12-28T14:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="setUp" is-config="true" duration-ms="9506" started-at="2020-12-28T14:13:02Z" finished-at="2020-12-28T14:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="toDeleteBracket()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="toDeleteBracket" duration-ms="7062" started-at="2020-12-28T14:13:12Z" description="here i want to delete bracket" finished-at="2020-12-28T14:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toDeleteBracket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="1226" started-at="2020-12-28T14:13:19Z" finished-at="2020-12-28T14:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="setUp" is-config="true" duration-ms="12833" started-at="2020-12-28T14:13:20Z" finished-at="2020-12-28T14:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="toEditBracket()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="toEditBracket" duration-ms="5268" started-at="2020-12-28T14:13:33Z" description="here i want to edit bracket" finished-at="2020-12-28T14:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEditBracket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="801" started-at="2020-12-28T14:13:38Z" finished-at="2020-12-28T14:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="setUp" is-config="true" duration-ms="8642" started-at="2020-12-28T14:13:39Z" finished-at="2020-12-28T14:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="toSaveBracket()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="toSaveBracket" duration-ms="4707" started-at="2020-12-28T14:13:48Z" description="here i want to save bracket" finished-at="2020-12-28T14:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toSaveBracket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.CreateTournamentTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="842" started-at="2020-12-28T14:13:52Z" finished-at="2020-12-28T14:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mesf.test.CreateTournamentTest -->
+      <class name="com.mesf.test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="setUp" is-config="true" duration-ms="9089" started-at="2020-12-28T14:11:51Z" finished-at="2020-12-28T14:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InvalidUsernameAndInvalidPass()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="InvalidUsernameAndInvalidPass" duration-ms="1631" started-at="2020-12-28T14:12:00Z" description="This TC will perform Invalid Username and Invalid Password" finished-at="2020-12-28T14:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameAndInvalidPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="tearDown" is-config="true" duration-ms="844" started-at="2020-12-28T14:12:01Z" finished-at="2020-12-28T14:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="setUp" is-config="true" duration-ms="11116" started-at="2020-12-28T14:12:02Z" finished-at="2020-12-28T14:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InvalidUsernameAndvalidPass()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="InvalidUsernameAndvalidPass" duration-ms="1655" started-at="2020-12-28T14:12:13Z" description="This TC will perform Invalid Username and valid Password" finished-at="2020-12-28T14:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameAndvalidPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="tearDown" is-config="true" duration-ms="839" started-at="2020-12-28T14:12:15Z" finished-at="2020-12-28T14:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="setUp" is-config="true" duration-ms="9363" started-at="2020-12-28T14:12:16Z" finished-at="2020-12-28T14:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validUsernameAndInvalidPass()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="validUsernameAndInvalidPass" duration-ms="2356" started-at="2020-12-28T14:12:25Z" description="This TC will perform valid Username and Invalid Password" finished-at="2020-12-28T14:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameAndInvalidPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="tearDown" is-config="true" duration-ms="802" started-at="2020-12-28T14:12:28Z" finished-at="2020-12-28T14:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="setUp" is-config="true" duration-ms="12094" started-at="2020-12-28T14:12:28Z" finished-at="2020-12-28T14:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validUsernameAndPass()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="validUsernameAndPass" duration-ms="4650" started-at="2020-12-28T14:12:40Z" description="This TC will perform valid Username and valid Password" finished-at="2020-12-28T14:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameAndPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mesf.test.LoginTest@161479c6]" name="tearDown" is-config="true" duration-ms="805" started-at="2020-12-28T14:12:45Z" finished-at="2020-12-28T14:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mesf.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
