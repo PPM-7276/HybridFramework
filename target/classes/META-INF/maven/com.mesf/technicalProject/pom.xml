@@ -4,7 +4,7 @@
   <artifactId>technicalProject</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-    <build>
+   <build>
     <resources>
 			<resource>
 				<directory>src/main/java/resources</directory>
